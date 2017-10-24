@@ -1,0 +1,29 @@
+.fixed-right{
+  position: fixed;
+  right: 0;
+}
+.fixed{
+  position: fixed;
+}
+.absolute{
+  position: absolute;
+}
+.relative{
+  position: relative;
+}
+.w-center{
+  left: 50%;
+  transform: translateX(-50%);
+}
+.search-bar{
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  @media (max-width: 992px) {
+    position: inherit;
+    left: 50%;
+    transform: translateX(0%);
+  };
+
+}

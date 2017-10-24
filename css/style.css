@@ -1,0 +1,105 @@
+body {
+  height: 100vh;
+}
+#guidelines-content {
+  display: none;
+}
+.hide-text {
+  display: none;
+}
+#people2-bio,
+#people2-arrow,
+#people3-bio,
+#people3-arrow,
+#people4-bio,
+#people4-arrow {
+  display: none;
+}
+#logo {
+  width: 400px;
+}
+#brand {
+  width: 80px;
+}
+.bg-yellow {
+  background-color: #FEC930;
+}
+.bg-none {
+  background-color: transparent;
+}
+.bg-white {
+  background-color: #fff;
+}
+.text-yellow {
+  color: #FEC930;
+}
+.text-white {
+  color: #fff;
+}
+.btn-base {
+  background-color: #FEC930;
+  color: #fff;
+}
+.btn-base:hover {
+  cursor: pointer;
+}
+.btn-white {
+  background-color: #fff;
+  color: #FEC930;
+}
+.btn-white:hover {
+  cursor: pointer;
+  background-color: #FEC930;
+  color: #fff;
+}
+.btn-side {
+  border-radius: 5px 0 0 5px;
+}
+.btn-side:hover {
+  background-color: #FEC930;
+}
+.btn-side:hover i {
+  color: #fff;
+}
+.active {
+  border-bottom: 1px solid #000;
+}
+.close {
+  outline: none !important;
+}
+.close i:hover {
+  color: #FEC930;
+}
+.fa:hover {
+  cursor: pointer;
+}
+.fixed-right {
+  position: fixed;
+  right: 0;
+}
+.fixed {
+  position: fixed;
+}
+.absolute {
+  position: absolute;
+}
+.relative {
+  position: relative;
+}
+.w-center {
+  left: 50%;
+  transform: translateX(-50%);
+}
+.search-bar {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+@media (max-width: 992px) {
+  .search-bar {
+    position: inherit;
+    left: 50%;
+    transform: translateX(0%);
+  }
+}
